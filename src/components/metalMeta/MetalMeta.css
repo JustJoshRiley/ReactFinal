@@ -1,0 +1,36 @@
+.MetalMetaContainer {
+    height: 100%;
+    padding-top: 10%;
+}
+
+.MetalMetaContainer h4{
+    color: pink;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.BandContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+@media only screen and (min-width: 600px) {
+    .BandContainer {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .BandContainer {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 20px;
+    }
+  }
